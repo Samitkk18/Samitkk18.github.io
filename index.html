@@ -1,512 +1,349 @@
-<!--
-Author: W3layouts
-Author URL: http://w3layouts.com
--->
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
   <title>Samit Kapadia</title>
+  
+  <!-- Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-124206045-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'UA-124206045-2');
+  </script>
 
-  <!-- google fonts -->  
-  <link href="//fonts.googleapis.com/css2?family=Jost:wght@300;400;600&display=swap" rel="stylesheet">
+  <!-- Bootstrap CSS CDN -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-  <!-- Template CSS -->
-  <link rel="stylesheet" href="assets/css/style-starter.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="assets/css/main.css">
+
+  <!-- Iconify -->
+  <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+
+  <!-- Boxicons -->
+  <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+  
+  <!-- Favicon -->
+  <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
 </head>
 
 <body>
-<!-- header -->
-<header id="site-header" class="fixed-top">
-  <div class="container">
-      <nav class="navbar navbar-expand-lg stroke">
-          <a class="navbar-brand" href="index.html">
-              <span class="fa fa-laptop"></span> Samit
-          </a>
-          <!-- if logo is image enable this   
-      <a class="navbar-brand" href="#index.html">
-          <img src="image-path" alt="Your logo" title="Your logo" style="height:35px;" />
-      </a> -->
-          <button class="navbar-toggler  collapsed bg-gradient" type="button" data-toggle="collapse"
-              data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
-              aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
-              <span class="navbar-toggler-icon fa icon-close fa-times"></span>
-              </span>
-          </button>
-
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-              <ul class="navbar-nav ml-auto">
-                  <li class="nav-item active">
-                      <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                  </li>
-                  <li class="nav-item @@about__active">
-                      <a class="nav-link" href="about.html">About</a>
-                  </li>
-                  <li class="nav-item @@contact__active">
-                      <a class="nav-link" href="contact.html">Contact</a>
-                  </li>
-              </ul>
-          </div>
-          <!-- toggle switch for light and dark theme -->
-          <div class="mobile-position">
-              <nav class="navigation">
-                  <div class="theme-switch-wrapper">
-                      <label class="theme-switch" for="checkbox">
-                          <input type="checkbox" id="checkbox">
-                          <div class="mode-container">
-                              <i class="gg-sun"></i>
-                              <i class="gg-moon"></i>
-                          </div>
-                      </label>
-                  </div>
-              </nav>
-          </div>
-          <!-- //toggle switch for light and dark theme -->
-      </nav>
-  </div>
-</header>
-<!-- //header -->
-
-<!-- banner section -->
-<section id="home" class="w3l-banner py-5">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-lg-6 col-sm-12 mt-lg-0 mt-4">
-                <span class="title-small">Hello</span>
-                <h1 class="mb-2 title"> <span>I'm</span> Samit Kapadia</h1>
-                <!-- <h1 class="mb-4 title"> a <span class="typed-text"></span><span class="cursor">&nbsp</span></h1> -->
-                <p>I am a third year computer engineering student at Dwarkadas J. Sanghvi College of Engineering.</p>
-                <div class="mt-sm-5 mt-4">
-                    <a class="btn btn-primary btn-style mr-2" href="contact.html"> Connect </a>
-                    <a class="btn btn-outline-primary btn-style mr-2" href="https://drive.google.com/file/d/1cDVlu71OYTItmTmiFOA2zTOR93K3pi7N/view?usp=sharing"> Portfolio </a>
-                </div>
-            </div>
-            <!-- <div class="col-lg-6 col-md-8 col-sm-10 mt-lg-0 mt-4">
-                <div class="img-effect text-lg-center">
-                    <img src="assets/images/photo.png" alt="myphoto" class="img-fluid">
-                </div>
-            </div> -->
-        </div>
+  <div class="d-flex" id="wrapper">
+    <!-- Sidebar -->
+    <div id="sidebar-wrapper" class="position-fixed .d-block .d-xs-none">
+      <div class="sidebar-heading text-center">
+        <img src="assets/img/samitKapadia.jpg" alt="" class="rounded-circle" id="profile-img">
+      </div>
+      <div class="list-group list-group-flush" id="scroll-parent" data-spy="scroll" data-target=".nav-menu" data-offset="2">
+        <ul class="list-unstyled nav-menu text-center">
+          <li class="nav-item"><a href="#about" class="nav-link"><span class="nav-link-icon"><i class='bx bx-user-circle'></i></span> About</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link"><span class="nav-link-icon"><i class='bx bx-book-bookmark'></i></span> Education</a></li>
+          <li class="nav-item"><a href="#experience" class="nav-link"><span class="nav-link-icon"><i class='bx bx-briefcase-alt-2'></i></span> Experience</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link"><span class="nav-link-icon"><i class='bx bx-git-branch'></i></span> Projects</a></li>
+          <!-- <li class="nav-item"><a href="#publications" class="nav-link"><span class="nav-link-icon"><i class="bx bx-file"></i></span> Publications</a></li> -->
+          <li class="nav-item"><a href="#skills" class="nav-link"><span class='nav-link-icon'><i class="bx bx-cog"></i></span> Skills</a></li>
+          <!-- <li class="nav-item"><a href="#blog" class="nav-link"><span class='nav-link-icon'><i class="bx bx-notepad"></i></span> Blog</a></li> -->
+        </ul>
+      </div>
     </div>
-</section>
-<!-- //banner section -->
 
-<!-- home page about section -->
-<section class="w3l-index3" id="about">
-    <div class="midd-w3 py-5">
-        <div class="container py-lg-5 py-md-3">
-            <div class="row">
-                <div class="col-lg-4">
-                    <div class="position-relative">
-                        <img src="assets/img/samitKapadia.jpg" alt="" class="radius-image img-fluid">
-                    </div>
-                </div>
-                <div class="col-lg-8 mt-lg-0 mt-5">
-                    <h5 class="title-small mb-2">Who am I?</h5>
-                    <h3 class="title-big">I'm Samit Kapadia, computer engineering student and a full stack developer</h3>
-                    <p class="mt-4">I'm a curious computer engineer, fascinated by the puzzles in the world around me. With a quest for ever-increasing knowledge and insatiable curiosity, I strive for challenging opportunities to exercise and build upon my repertoire of computation, development, and collaboration skills, and aspire to combat problems which result in positive impacts on the community.!</p>
-                    <a href="https://drive.google.com/file/d/1cDVlu71OYTItmTmiFOA2zTOR93K3pi7N/view?usp=sharing" class="btn btn-style btn-primary mt-lg-5 mt-4">Resume / CV</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- //home page about section -->
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+      <div class="container-fluid">
+        <i class='bx bxs-up-arrow-circle' onclick="scrollToTop()" id="scroll-to-top"></i>
+      </div>
 
-<!-- home page second section -->
-<!-- <div class="py-5 w3l-resume">
-    <div class="container py-lg-5 py-3">
-        <h5 class="title-small mb-2"> My resume</h5>
-        <h3 class="title-big mb-4">I Would Love to make your Ideas real </h3>
-        <p>I love graphic design and photography and have been working on my portfolio since 2016. You can download my
-            resume in order to learn the details of my professional life as a designer and photographer. Contact me and
-            we will discuss your projects!</p>
-        <div class="mt-5">
-            <a href="#download" class="btn btn-style btn-primary">Download resume</a>
-        </div>
-    </div>
-</div> -->
-<!-- //home page second section -->
+      <nav class="navbar d-block d-sm-none navbar-expand-lg">
+        <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-<!-- projects section -->
-<section class="w3l-services">
-    <div class="blog py-5" id="services">
-        <div class="container py-lg-5">
-            <h5 class="title-small text-center">Projects</h5>
-            <h3 class="title-big text-center mb-sm-5 mb-4">What have I done?</h3>
-            <div class="row">
-                <div class="col-md-12 mx-auto pr-2">
-                    <div class="owl-two owl-carousel owl-theme">
-                      <div class="item">
-                        <div class="card">
-                            <div class="box-wrap">
-                                <div class="icon">
-                                    <span class="fa fa-pencil-square-o"></span>
-                                </div>
-                                <h4 class="number">01</h4>
-                                <h4><a href="#url">Neural Machine Translation (Ongoing)</a></h4>
-                                <p>A research paper on neural machine translation for low resourced Indian languages.</p>
-                                <a href="#read" class="read">Read more</a>
-                            </div>
-                        </div>
-                      </div>
-
-                      <div class="item">
-                        <div class="card">
-                            <div class="box-wrap">
-                                <div class="icon">
-                                  <span class="fa fa-area-chart"></span>
-                                </div>
-                                <h4 class="number">02</h4>
-                                <h4><a href="#url">Stroke Prediction</a></h4>
-                                <p></p>
-                                  <a href="#read" class="read">Read more</a>
-                              </div>
-                        </div>
-                      </div>
-
-                        <div class="item">
-                            <div class="card">
-                                <div class="box-wrap">
-                                    <div class="icon">
-                                        <span class="fa fa-pencil-square-o"></span>
-                                    </div>
-                                    <h4 class="number">03</h4>
-                                    <h4><a href="#url">Doctor Clinic App</a></h4>
-                                    <p>A non-profit project,by college coding committee. Worked on the design and integration team. Technologies used - Django and React.js</p>
-                                    <a href="https://github.com/djunicode/doctor-clinic-app" class="read">Read more</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="item">
-                            <div class="card">
-                                <div class="box-wrap">
-                                    <div class="icon">
-                                      <span class="fa fa-laptop"></span>
-                                    </div>
-                                    <h4 class="number">04</h4>
-                                    <h4><a href="#url">Re-bag</a></h4>
-                                    <p>A real-time auctioning platform that provides a platform for sellers and prospective buyers from all over the world to interact. As a part of Sem 3 OSTL(Python) Miniproject</p>
-                                      <a href="https://github.com/SakshiUppoor/re-bag" class="read">Read more</a>
-                                  </div>
-                            </div>
-                        </div>
-
-                        <!-- <div class="item">
-                            <div class="card">
-                                <div class="box-wrap">
-                                    <div class="icon">
-                                      <span class="fa fa-laptop"></span>
-                                    </div>
-                                    <h4 class="number">05</h4>
-                                    <h4><a href="#url">Web Development</a></h4>
-                                    <p>Lorem ipsum dolor sit amet sed consectetur adipisicing elit.
-                                      doloret quas saepe autem, dolor set.</p>
-                                      <a href="#read" class="read">Read more</a>
-                                  </div>
-                            </div>
-                        </div> -->
-
-                        <!-- <div class="item">
-                            <div class="card">
-                                <div class="box-wrap">
-                                    <div class="icon">
-                                      <span class="fa fa-area-chart"></span>
-                                    </div>
-                                    <h4 class="number">06</h4>
-                                    <h4><a href="#url">Research & Analysis</a></h4>
-                                    <p>Lorem ipsum dolor sit amet sed consectetur adipisicing elit.
-                                      doloret quas saepe autem, dolor set.</p>
-                                      <a href="#read" class="read">Read more</a>
-                                  </div>
-                            </div>
-                        </div> -->
-                    </div>
-                </div>
-            </div>
-            <div class="mt-5 text-more">
-                <p class="mt-4 pt-3 sample text-center">
-                    <a href="https://github.com/Samitkk18">View All Projects <span class="pl-2 fa fa-long-arrow-right"></span></a>
-                </p>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- //projects section -->
-
-
- <!-- freelance hire me -->
- <section class="w3l-grid-quote text-center py-5">
-   <div class="container py-3">
-     <h6 class="title-small">Get in touch</h6>
-     <h3 class="title-big mb-md-5 mb-4">Let's start a Project!</h3>
-     <a href="contact.html" class="btn btn-style btn-outline-primary">Get in touch</a>
-   </div>
- </section>
- <!-- //freelance hire me -->
- 
-<!-- Footer -->
-<section class="w3l-footer py-sm-5 py-4">
-  <div class="container">
-    <div class="footer-content">
-      <div class="row">
-        <div class="col-lg-8 footer-left">
-          <p class="m-0">Samit Kapadia</p>
-        </div>
-        <div class="col-lg-4 footer-right text-lg-right text-center mt-lg-0 mt-3">
-          <ul class="social m-0 p-0">
-            <li><a href="https://github.com/Samitkk18"><span class="fa fa-github"></span></a></li>
-            <li><a href="www.linkedin.com/in/samitkapadia"><span class="fa fa-linkedin-square"></span></a></li>
-            <li><a href="https://www.instagram.com/samit.kapadia/"><span class="fa fa-instagram"></span></a></li>
-            <li><a href="https://twitter.com/samitkk18"><span class="fa fa-twitter"></span></a></li>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a href="#about" class="nav-link"><span class="nav-link-icon"><i class='bx bx-user-circle'></i></span> About</a></li>
+            <li class="nav-item"><a href="#education" class="nav-link"><span class="nav-link-icon"><i class='bx bx-book-bookmark'></i></span> Education</a></li>
+            <li class="nav-item"><a href="#experience" class="nav-link"><span class="nav-link-icon"><i class='bx bx-briefcase-alt-2'></i></span> Experience</a></li>
+            <li class="nav-item"><a href="#projects" class="nav-link"><span class="nav-link-icon"><i class='bx bx-git-branch'></i></span> Projects</a></li>
+            <!-- <li class="nav-item"><a href="#publications" class="nav-link"><span class="nav-link-icon"><i class="bx bx-file"></i></span> Publications</a></li> -->
+            <li class="nav-item"><a href="#skills" class="nav-link"><span class='nav-link-icon'><i class="bx bx-cog"></i></span> Skills</a></li>
+            <!-- <li class="nav-item"><a href="#blog" class="nav-link"><span class='nav-link-icon'><i class="bx bx-notepad"></i></span> Blog</a></li> -->
           </ul>
         </div>
+      </nav>
+
+      <div class="container-fluid">
+        <section class="container-fluid section" id="about">
+          <div class="row">
+            <div class="col-sm-6">
+              <h1 id="profile-name">Samit Kapadia</h1>
+              <h2 id="section-header2">Mumbai, India</h2>
+              <p id="section-content1">I'm a curious computer engineer, fascinated by the puzzles in the world around me. With a quest for ever-increasing knowledge and insatiable curiosity.</p>
+                <p id="section-content1">I strive for challenging opportunities to exercise and build upon my repertoire of computation, development, and collaboration skills, and aspire to combat problems which result in positive impacts on the community.!</p>
+              <p id="section-content1">Currently I'm working as a Data Analyst Intern @ Tech Mahindra</p>
+              <p id="section-content1">I am a fanatical Formula 1 fan and almost never miss a race!</p>
+              <p id="section-content1">Let's collaborate on a project. Reach out to me via:</p>
+  
+              <div class="reach-icons">
+                <a class="reach-icon" href="https://linkedin.com/in/samitkapadia" data-toggle="tooltip" data-placement="bottom" title="LinkedIn"><i class='bx bxl-linkedin'></i></a>
+                <a class="reach-icon" href="https://github.com/samitkk18" data-toggle="tooltip" data-placement="bottom" title="GitHub"><i class='bx bxl-github'></i></a>
+                <a class="reach-icon" href="https://www.instagram.com/samit.kapadia/" data-toggle="tooltip" data-placement="bottom" title="Instagram"><i class='bx bxl-instagram'></i></a>
+                <a class="reach-icon" href="https://twitter.com/samitkk18" data-toggle="tooltip" data-placement="bottom" title="Twitter"><i class='bx bxl-twitter'></i></a>
+              </div>
+            </div>
+            <div class="col-sm-6 my-auto text-center">
+              <img src="assets/img/coding.png" alt="" id="coding-img">
+            </div>
+          </div>
+        </section>
+  
+        <!-- Education -->
+        <section class="container-fluid section" id="education">
+          <h1 id="section-header1">Education</h1>
+          <div class="row">
+            <div class="col-sm-8">
+              <h2 id="section-header3"><a href="http://www.djsce.ac.in">Dwarkadas J. Sanghvi College of Engineering</a></h2>
+              <h2 id="section-header2">Bachelor of Engineering, Computer Engineering</h2>
+              <p id="section-content1">CGPA: 9.62/10 (till semester 5)</p>
+              <p id="section-content1">Coursework - Data Structures, Advanced Algorithms, Operating Systems.</p>
+            </div>
+            <div class="col-sm-4">
+              <h2 id="section-header4">Aug. 2018 - Present</h2>
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col-sm-8">
+              <h2 id="section-header3"><a href="https://iitianspace.com">Kishinchand Chellaram College - Mumbai, India</a></h2>
+              <h2 id="section-header2">Maharashtra State Board of Secondary and Higher Secondary Education</h2>
+              <p id="section-content1">Finals - 94.7%</p>
+              <p id="section-content1">Achievement - 3rd in College</p>
+            </div>
+            <div class="col-sm-4">
+              <h2 id="section-header4">July 2016 - June 2018</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-8">
+              <h2 id="section-header3"><a href="https://iitianspace.com">Greenlawns High School - Mumbai, India</a></h2>
+              <h2 id="section-header2">Indian Certificate of Secondary Education</h2>
+              <p id="section-content1">Finals - 95.83%</p>
+            </div>
+            <div class="col-sm-4">
+              <h2 id="section-header4">Mar 2009 - Mar 2016</h2>
+            </div>
+          </div>
+        </section>
+  
+        <!-- Experience -->
+        <section class="container-fluid section" id="experience">
+          <h1 id="section-header1">Experience</h1>
+          <div class="row">
+            <div class="col-sm-8">
+              <h2 id="section-header3"><a href="https://cps.iisc.ac.in">Tech Mahindra</a></h2>
+              <h2 id="section-header2">Data Analyst Intern</h2>
+              <div class="container-fluid row">
+                <ul id="section-list">
+                  <li id="section-content1"></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <h2 id="section-header4">June 2021 - Present</h2>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-8">
+              <h2 id="section-header3"><a href="https://nwdco.com">NWDCo Software Solutions</a></h2>
+              <h2 id="section-header2">Junior Developer</h2>
+              <div class="container-fluid row">
+                <ul id="section-list">
+                  <li id="section-content1"><b>Project Lead - Klassic Engage</b> - A web portal for a Tea Company. Implemented the Sales Management System to add and view clients and sales, set monthly, quarterly and yearly targets and analysis of their competitors. Generating Excels by a single button click, using cron jobs.</li>
+                  <li id="section-content1"><b>The Kusnacht Project</b> – A web portal for a rehab and a treatment center. Implemented the entire workflow from when a client checks in to manage their daily schedule to check out. Created a module for amenities available at the center to cater the client’s needs. Created APIs for the mobile app.</li>
+                  <li id="section-content1"><b>Taj Health Assessment</b> – Under project Kveso (Contactless Technology), creating forms for various facilities such as salon, restaurants and laundry.</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <h2 id="section-header4">May 2020 - Aug 2020</h2>
+            </div>
+          </div>
+        </section>
+        
+        <!-- Projects -->
+        <section class="container-fluid section" id="projects">
+          <h1 id="section-header1">Projects</h1>
+          <p id="section-content1">A collection of my personal and collaboration projects that I've undertaken over the course of my undergraduate education to explore different fields in Computer Science and narrow down my areas of interest.</p>
+          <!-- <div class="card border-secondary mb-4 shadow-lg">
+            <div class="row my-auto">
+              <div class="col-sm-4 my-auto">
+                <img src="assets/img/eeg2vec_authenticator.png" class="img-fluid" id="card-img">
+              </div>
+              <div class="col-sm-8">
+                <div class="card-block px-2">
+                  <h1 class="card-title">Stroke Prediction</h1>
+                  <hr>
+                  <p class="card-content1"></p>
+                  <span>
+                    <span><a class="btn btn-sm btn-outline-primary" id="card-content2" href="https://github.com/samitkk18/StrokePrediction"><i class='bx bx-code-curly' id="card-link"></i> Code</a></span>
+                    <span class="btn btn-sm btn-outline-dark" id="card-content2">Sckit-Learn</span>
+                    <span class="btn btn-sm btn-outline-dark" id="card-content2">Pandas</span>
+                    <span class="btn btn-sm btn-outline-dark" id="card-content2">NumPy</span>
+                    <span class="btn btn-sm btn-outline-dark" id="card-content2">Matplotlib</span>
+                  </span>
+                </div>
+              </div>
+            </div>  
+          </div> -->
+          <div class="card border-secondary mb-4 shadow-lg">
+            <div class="row my-auto">
+              <div class="col-sm-4 my-auto">
+                <img src="assets/img/doctorclinicapp.jpg" class="img-fluid" id="card-img">
+              </div>
+              <div class="col-sm-8">
+                <div class="card-block px-2">
+                  <h1 class="card-title">Doctor Clinic App</h1>
+                  <hr>
+                  <p class="card-content1">•	Owning the design and implementation of the frontend for the various features of an automated portal (to be used by an NGO) to maintain a patients’ medical records, make appointments, match a patient to a specific doctor, one stop place for all medical needs.</p>
+                  <span>
+                    <span><a class="btn btn-sm btn-outline-primary" id="card-content2" href="https://github.com/Samitkk18/doctor-clinic-app"><i class='bx bx-code-curly' id="card-link"></i> Code</a></span>
+                    <span class="btn btn-sm btn-outline-dark" id="card-content2">React.js</span>
+                    <span class="btn btn-sm btn-outline-dark" id="card-content2">Django</span>
+                    <span class="btn btn-sm btn-outline-dark" id="card-content2">CSS</span>
+                    <span class="btn btn-sm btn-outline-dark" id="card-content2">MongoDB</span>
+                  </span>
+                </div>
+              </div>
+            </div>  
+          </div>
+          
+          <div class="card border-secondary mb-4 shadow-lg">
+            <div class="row my-auto">
+              <div class="col-sm-4 my-auto">
+                <img src="assets/img/rebag.png" class="img-fluid" id="card-img">
+              </div>
+              <div class="col-sm-8">
+                <div class="card-block px-2">
+                  <h1 class="card-title">Re-Bag</h1>
+                  <hr>
+                  <p class="card-content1">A real-time auctioning platform that provides a platform for sellers and prospective buyers from all over the world to interact. Real-time filtering of products based on category. Real-time online bidding in auction rooms.
+                    </p>
+                  <span>
+                    <span><a class="btn btn-sm btn-outline-primary" id="card-content2" href="https://github.com/Samitkk18/re-bag"><i class='bx bx-code-curly' id="card-link"></i> Code</a></span>
+                    <span class="btn btn-sm btn-outline-dark" id="card-content2">HTML</span>
+                    <span class="btn btn-sm btn-outline-dark" id="card-content2">CSS</span>
+                    <span class="btn btn-sm btn-outline-dark" id="card-content2">Django</span>
+                    <span class="btn btn-sm btn-outline-dark" id="card-content2">Redis Server</span>
+                  </span>
+                </div>
+              </div>
+            </div>  
+          </div>
+          
+        </section>
+
+        <!-- Publications -->
+        <!-- <section class="container-fluid section" id="publications">
+          <h1 id="section-header1">Publications</h1>
+          <div class="card border-secondary mb-4 shadow-lg">
+            <div class="row my-auto">
+              <div class="col-sm-4 my-auto">
+                <img src="assets/img/smart_cart.png" class="img-fluid" id="card-img">
+              </div>
+              <div class="col-sm-8">
+                <div class="card-block px-2">
+                  <h1 class="card-title"></h1>
+                  <hr>
+                  <p class="card-content1"></p>
+                  <span>
+                    <span><a class="btn btn-sm btn-outline-primary" id="card-content2" href=""><i class='bx bx-file-blank' id="card-link"></i> Paper</a></span>
+                    <span><a class="btn btn-sm btn-outline-primary" id="card-content2" href=""><i class='bx bx-code-curly' id="card-link"></i> Code</a></span>
+                    <span class="btn btn-sm btn-outline-dark" id="card-content2">Tensorflow</span>
+                    <span class="btn btn-sm btn-outline-dark" id="card-content2">Pandas</span>
+                    <span class="btn btn-sm btn-outline-dark" id="card-content2">Numpy</span>
+                    <span class="btn btn-sm btn-outline-dark" id="card-content2">Matplotlib</span>
+                  </span>
+                </div>
+              </div>
+            </div>  
+          </div>
+        </section> -->
+  
+        <!-- Skills -->
+        <section class="container-fluid section" id="skills">
+          <h1 id="section-header1">Skills</h1>
+          <h2 id="section-header3">Technical Skills</h2>
+          <p id="section-content1">Here are a few technologies I've worked with or implemented in my projects, coursework and hackathons. Hope to add some more technical skills to this list in the future!</p>
+          <div class="container-fluid">
+            <h2 id="section-content2">Programming Languages</h2>
+            <span>
+              <span class="badge" id="section-content3"><i class="iconify" data-icon="cib:python" data-inline="false"></i> Python</span>
+              <span class="badge" id="section-content3"><i class="iconify" data-icon="cib:javascript" data-inline="false"></i> JavaScript</span>
+              <span class="badge" id="section-content3"><i class="iconify" data-icon="file-icons:c" data-inline="false"></i> C++</span>
+            </span>
+          
+            <h2 id="section-content2">Libraries & Frameworks</h2>
+            <span>
+              <!-- <span class="badge" id="section-content3"><i class="iconify" data-icon="cib:keras" data-inline="false"></i> Keras</span> -->
+              <span class="badge" id="section-content3"><i class="iconify" data-icon="cib:tensorflow" data-inline="false"></i> TensorFlow</span>
+              <span class="badge" id="section-content3"><i class="iconify" data-icon="file-icons:opencv" data-inline="false"></i> OpenCV</span>
+              <span class="badge" id="section-content3"><i class="iconify" data-icon="simple-icons:numpy" data-inline="false"></i> NumPy</span>
+              <span class="badge" id="section-content3"><i class="iconify" data-icon="carbon:qq-plot" data-inline="false"></i> Matplotlib</span>
+              <span class="badge" id="section-content3"><i class="iconify" data-icon="mdi:chart-scatter-plot" data-inline="false"></i> Seaborn</span>
+            </span>
+
+            <h2 id="section-content2">Database Technologies</h2>
+            <span>
+              <span class="badge" id="section-content3"><i class="iconify" data-icon="whh:mysqltwo" data-inline="false"></i> MySQL</span>
+              <span class="badge" id="section-content3"><i class="iconify" data-icon="cib:mongodb" data-inline="false"></i> MongoDB</span>
+            </span>
+  
+            <h2 id="section-content2">Web Development</h2>
+            <span>
+              <span class="badge" id="section-content3"><i class="iconify" data-icon="ion:logo-nodejs" data-inline="false"></i> Node.js</span>
+              <span class="badge" id="section-content3"><i class="iconify" data-icon="cib:php" data-inline="false"></i> PHP</span>
+              <span class="badge" id="section-content3"><i class="iconify" data-icon="cib:react" data-inline="false"></i> React.js</span>
+              <span class="badge" id="section-content3"><i class="iconify" data-icon="cib:django" data-inline="false"></i> Django</span>
+              <span class="badge" id="section-content3"><i class="iconify" data-icon="cib:bootstrap" data-inline="false"></i> Bootstrap4</span>
+              <span class="badge" id="section-content3"><i class="iconify" data-icon="cib:html5" data-inline="false"></i> HTML5</span>
+              <span class="badge" id="section-content3"><i class="iconify" data-icon="cib:css3-shiled" data-inline="false"></i> CSS3</span>
+            </span>
+  
+            <h2 id="section-content2">DevOps</h2>
+            <span>
+              <span class="badge" id="section-content3"><i class="iconify" data-icon="cib:git" data-inline="false"></i> Git</span>
+              <span class="badge" id="section-content3"><i class="iconify" data-icon="cib:flask" data-inline="false"></i> Flask</span>
+              <!-- <span class="badge" id="section-content3"><i class="iconify" data-icon="cib:amazon-aws" data-inline="false"></i> AWS</span> -->
+              <!-- <span class="badge" id="section-content3"><i class="iconify" data-icon="cib:google-cloud" data-inline="false"></i> Google Cloud</span> -->
+              <span class="badge" id="section-content3"><i class="iconify" data-icon="cib:heroku" data-inline="false"></i> Heroku</span>
+              <!-- <span class="badge" id="section-content3"><i class="iconify" data-icon="logos:gordon" data-inline="false"></i> Hasura</span> -->
+            </span>
+  
+            <h2 id="section-content2">Operating Systems</h2>
+            <span>
+              <span class="badge" id="section-content3"><i class="iconify" data-icon="cib:apple" data-inline="false"></i> Mac</span>
+              <span class="badge" id="section-content3"><i class="iconify" data-icon="cib:windows" data-inline="false"></i> Windows</span>
+            </span>
+          </div>
+          <br><br><br>
+        </section>
       </div>
     </div>
   </div>
 
-  <!-- move top -->
-  <button onclick="topFunction()" id="movetop" title="Go to top">
-    <span class="fa fa-angle-up"></span>
-  </button>
-  <script>
-    // When the user scrolls down 20px from the top of the document, show the button
-    window.onscroll = function () {
-      scrollFunction()
-    };
+  <!-- Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-    function scrollFunction() {
-      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        document.getElementById("movetop").style.display = "block";
-      } else {
-        document.getElementById("movetop").style.display = "none";
-      }
-    }
-
-    // When the user clicks on the button, scroll to the top of the document
-    function topFunction() {
-      document.body.scrollTop = 0;
-      document.documentElement.scrollTop = 0;
-    }
-  </script>
-  <!-- /move top -->
-</section>
-<!-- //Footer -->
-
-<!-- all js scripts and files here -->
-
-<script src="assets/js/theme-change.js"></script><!-- theme switch js (light and dark)-->
-
-<script src="assets/js/jquery-3.3.1.min.js"></script><!-- default jQuery -->
-
-<!-- /typig-text-->
-<script>
-  const typedTextSpan = document.querySelector(".typed-text");
-  const cursorSpan = document.querySelector(".cursor");
-
-  const textArray = ["", "Freelancer", "Full Stack Developer"];
-  const typingDelay = 200;
-  const erasingDelay = 10;
-  const newTextDelay = 100; // Delay between current and next text
-  let textArrayIndex = 0;
-  let charIndex = 0;
-
-  function type() {
-    if (charIndex < textArray[textArrayIndex].length) {
-      if (!cursorSpan.classList.contains("typing")) cursorSpan.classList.add("typing");
-      typedTextSpan.textContent += textArray[textArrayIndex].charAt(charIndex);
-      charIndex++;
-      setTimeout(type, typingDelay);
-    } else {
-      cursorSpan.classList.remove("typing");
-      setTimeout(erase, newTextDelay);
-    }
-  }
-
-  function erase() {
-    if (charIndex > 0) {
-      // add class 'typing' if there's none
-      if (!cursorSpan.classList.contains("typing")) {
-        cursorSpan.classList.add("typing");
-      }
-      typedTextSpan.textContent = textArray[textArrayIndex].substring(0, 0);
-      charIndex--;
-      setTimeout(erase, erasingDelay);
-    } else {
-      cursorSpan.classList.remove("typing");
-      textArrayIndex++;
-      if (textArrayIndex >= textArray.length) textArrayIndex = 0;
-      setTimeout(type, typingDelay);
-    }
-  }
-
-  document.addEventListener("DOMContentLoaded", function () { // On DOM Load initiate the effect
-    if (textArray.length) setTimeout(type, newTextDelay + 250);
-  });
-</script>
-<!-- //typig-text-->
-
-<!-- services owlcarousel -->
-<script src="assets/js/owl.carousel.js"></script>
-
-<!-- script for services -->
-<script>
-  $(document).ready(function () {
-    $('.owl-two').owlCarousel({
-      loop: true,
-      margin: 30,
-      nav: false,
-      responsiveClass: true,
-      autoplay: false,
-      autoplayTimeout: 5000,
-      autoplaySpeed: 1000,
-      autoplayHoverPause: false,
-      responsive: {
-        0: {
-          items: 1,
-          nav: false
-        },
-        480: {
-          items: 1,
-          nav: false
-        },
-        700: {
-          items: 1,
-          nav: false
-        },
-        1090: {
-          items: 3,
-          nav: false
-        }
-      }
-    })
-  })
-</script>
-<!-- //script for services -->
-
-<!-- script for tesimonials carousel slider -->
-<script>
-  $(document).ready(function () {
-    $("#owl-demo1").owlCarousel({
-      loop: true,
-      margin: 20,
-      nav: false,
-      responsiveClass: true,
-      responsive: {
-        0: {
-          items: 1,
-          nav: false
-        },
-        736: {
-          items: 1,
-          nav: false
-        },
-        1000: {
-          items: 2,
-          nav: false,
-          loop: false
-        }
-      }
-    })
-  })
-</script>
-<!-- //script for tesimonials carousel slider -->
-
-<!-- video popup -->
-<script src="assets/js/jquery.magnific-popup.min.js"></script>
-<script>
-  $(document).ready(function () {
-    $('.popup-with-zoom-anim').magnificPopup({
-      type: 'inline',
-
-      fixedContentPos: false,
-      fixedBgPos: true,
-
-      overflowY: 'auto',
-
-      closeBtnInside: true,
-      preloader: false,
-
-      midClick: true,
-      removalDelay: 300,
-      mainClass: 'my-mfp-zoom-in'
-    });
-
-    $('.popup-with-move-anim').magnificPopup({
-      type: 'inline',
-
-      fixedContentPos: false,
-      fixedBgPos: true,
-
-      overflowY: 'auto',
-
-      closeBtnInside: true,
-      preloader: false,
-
-      midClick: true,
-      removalDelay: 300,
-      mainClass: 'my-mfp-slide-bottom'
-    });
-  });
-</script>
-<!-- //video popup -->
-
-<!-- stats number counter-->
-<script src="assets/js/jquery.waypoints.min.js"></script>
-<script src="assets/js/jquery.countup.js"></script>
-<script>
-  $('.counter').countUp();
-</script>
-<!-- //stats number counter -->
-
-<!-- disable body scroll which navbar is in active -->
-<script>
-  $(function () {
-    $('.navbar-toggler').click(function () {
-      $('body').toggleClass('noscroll');
-    })
-  });
-</script>
-<!-- disable body scroll which navbar is in active -->
-
-<!--/MENU-JS-->
-<script>
-  $(window).on("scroll", function () {
-    var scroll = $(window).scrollTop();
-
-    if (scroll >= 80) {
-      $("#site-header").addClass("nav-fixed");
-    } else {
-      $("#site-header").removeClass("nav-fixed");
-    }
-  });
-
-  //Main navigation Active Class Add Remove
-  $(".navbar-toggler").on("click", function () {
-    $("header").toggleClass("active");
-  });
-  $(document).on("ready", function () {
-    if ($(window).width() > 991) {
-      $("header").removeClass("active");
-    }
-    $(window).on("resize", function () {
-      if ($(window).width() > 991) {
-        $("header").removeClass("active");
-      }
-    });
-  });
-</script>
-<!--//MENU-JS-->
-
-<!-- bootstrap js -->
-<script src="assets/js/bootstrap.min.js"></script>
-
+  <!-- Custom JS -->
+  <script src="assets/js/main.js"></script>
 </body>
-
 </html>
