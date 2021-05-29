@@ -7,7 +7,9 @@ body {
   height: 100%;
   width: 100%;
   font-family: 'Poppins', sans-serif;
-  background: rgb(222, 248, 230);
+  /* background: rgb(222, 248, 230); */
+  background: rgb(237, 249, 250);
+
 }
 
 a,
@@ -28,7 +30,7 @@ a:focus {
 #sidebar-wrapper {
   min-height: 100vh;
   margin-left: -17em;
-  background: rgb(0, 0, 0);
+  background: #040b14;
   z-index: 999;
   transition: margin 0.25s ease-out;
 }
