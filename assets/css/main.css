@@ -7,8 +7,8 @@ body {
   height: 100%;
   width: 100%;
   font-family: 'Poppins', sans-serif;
-  /* background: rgb(222, 248, 230); */
-  background: rgb(237, 249, 250);
+  background: rgb(166, 207, 245);
+  /* background: rgb(237, 249, 250); */
 
 }
 
@@ -78,18 +78,18 @@ a:focus {
   font-size: 1.1em;
   font-weight: 600;
   display: block;
-  color: rgb(240, 245, 245);
+  color: rgb(166, 207, 245);
 }
 
 #scroll-parent .nav-menu .nav-item .nav-link.active {
   color: rgb(0, 0, 0);
-  background: rgb(240, 245, 245);
+  background: rgb(166, 207, 245);
   font-size: 1.1em;
 }
 
 #scroll-parent .nav-menu .nav-item .nav-link:hover {
   color: rgb(0, 0, 0);
-  background: rgb(240, 245, 245);
+  background: rgb(166, 207, 245);
 }
 
 #scroll-parent .nav-menu .nav-item .nav-link:hover .nav-link-icon {
@@ -97,7 +97,7 @@ a:focus {
 }
 
 #scroll-parent .nav-menu .nav-item .nav-link .nav-link-icon {
-  color: rgb(240, 245, 245);
+  color: rgb(166, 207, 245);
   font-size: 1.1em;
   vertical-align: text-top;
 }
@@ -128,7 +128,7 @@ a:focus {
 }
 
 .navbar .nav-item {
-  color: rgb(240, 245, 245);
+  color: rgb(132, 184, 233);
   font-size: 1.1em;
   font-weight: 600;
 }
@@ -161,7 +161,7 @@ a:focus {
   margin-right: 0;
 }
 .reach-icons .reach-icon:hover {
-  background-color: rgb(4, 122, 252);
+  background-color: rgb(87, 96, 105);
 }
 
 .section {
@@ -205,7 +205,7 @@ a:focus {
 .section #section-content1 {
   font-size: 1em;
   font-weight: 400;
-  color: rgb(74, 67, 67);
+  color: rgb(59, 65, 75);
   /* text-align: justify; */
 }
 
