@@ -7,7 +7,7 @@ body {
   height: 100%;
   width: 100%;
   font-family: 'Poppins', sans-serif;
-  background: rgb(166, 207, 245);
+  background: #CFDEF3;
   /* background: rgb(237, 249, 250); */
 
 }
@@ -30,7 +30,8 @@ a:focus {
 #sidebar-wrapper {
   min-height: 100vh;
   margin-left: -17em;
-  background: #040b14;
+  /* background: #040b14; */
+  background: black;
   z-index: 999;
   transition: margin 0.25s ease-out;
 }
@@ -78,18 +79,18 @@ a:focus {
   font-size: 1.1em;
   font-weight: 600;
   display: block;
-  color: rgb(166, 207, 245);
+  color: #CFDEF3;
 }
 
 #scroll-parent .nav-menu .nav-item .nav-link.active {
   color: rgb(0, 0, 0);
-  background: rgb(166, 207, 245);
+  background: #CFDEF3;
   font-size: 1.1em;
 }
 
 #scroll-parent .nav-menu .nav-item .nav-link:hover {
   color: rgb(0, 0, 0);
-  background: rgb(166, 207, 245);
+  background: #CFDEF3;
 }
 
 #scroll-parent .nav-menu .nav-item .nav-link:hover .nav-link-icon {
@@ -97,7 +98,7 @@ a:focus {
 }
 
 #scroll-parent .nav-menu .nav-item .nav-link .nav-link-icon {
-  color: rgb(166, 207, 245);
+  color: #CFDEF3;
   font-size: 1.1em;
   vertical-align: text-top;
 }
