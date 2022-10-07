@@ -83,7 +83,7 @@
           <div class="row">
             <div class="col-sm-6">
               <h1 id="profile-name">Samit Kapadia</h1>
-              <h2 id="section-header2">Mumbai, India</h2>
+              <h2 id="section-header2">San Diego, CA</h2>
               <p id="section-content1">I'm a curious computer engineer, fascinated by the puzzles in the world around me. With a quest for ever-increasing knowledge and insatiable curiosity.</p>
               <p id="section-content1">I strive for challenging opportunities to exercise and build upon my repertoire of computation, development, and collaboration skills, and aspire to combat problems which result in positive impacts on the community!</p>
               <p id="section-content1">I want to engineer efficient solutions to problems that may seem commonplace.</p>
@@ -108,13 +108,24 @@
           <h1 id="section-header1">Education</h1>
           <div class="row">
             <div class="col-sm-8">
+              <h2 id="section-header3"><a href="https://www.ucsd.edu/">University of California San Diego</a></h2>
+              <h2 id="section-header2">Masters of Science, Computer Science</h2>
+              <!-- <p id="section-content1">CGPA: 9.68/10 (till semester 7)</p> -->
+              <p id="section-content1">Coursework - Principle of AI: Probabilistic Reasoning and Decision-Making, Web Mining and Recommender Systems.</p>
+            </div>
+            <div class="col-sm-4">
+              <h2 id="section-header4">Sep 2022 - Mar 2024[Expexted]</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-8">
               <h2 id="section-header3"><a href="http://www.djsce.ac.in">Dwarkadas J. Sanghvi College of Engineering</a></h2>
               <h2 id="section-header2">Bachelor of Engineering, Computer Engineering</h2>
-              <p id="section-content1">CGPA: 9.68/10 (till semester 7)</p>
+              <p id="section-content1">CGPA: 9.70/10</p>
               <p id="section-content1">Coursework - Structured Programming Approach, Data Structures, Analysis of Algorithms, Advanced Algorithms, Database Management Systems, Machine Learning, Big Data & Analytics, Artificial Intelligence and Soft Computing, Digital Image and Signal Processing.</p>
             </div>
             <div class="col-sm-4">
-              <h2 id="section-header4">Aug 2018 - Present</h2>
+              <h2 id="section-header4">Aug 2018 - May 2022</h2>
             </div>
           </div>
           <br>
@@ -153,8 +164,9 @@
               <h2 id="section-header2">Data Analyst Intern</h2>
               <div class="container-fluid row">
                 <ul id="section-list">
-                  <li id="section-content1">Designed an end-to-end system using Azure Services to automate the current application system by collecting, filtering, and ranking the applicant’s resumes based on the cosine similarity of their resume and the job description.</li>
-                  <li id="section-content1">Achieved ~18% reduction in the cycle time of recruitment process by performing preprocessing, count vectorizer, and topic modeling.</li>
+                  <li id="section-content1">Created a pipeline for ML models from data ingestion to storage, cleaning and analysis, training, and deployment by leveraging Azure
+                    Services.</li>
+                  <li id="section-content1">Conducted exploratory data-analysis, pre-processing, and trained models on company’s recruitment datasets.</li>
                 </ul>
               </div>
             </div>
@@ -205,6 +217,27 @@
 
         <section class="container-fluid section" id="publications">
         <h1 id="section-header1">Publications</h1>
+          <!-- Code for Microexpression -->
+          <div class="card border-secondary mb-4 shadow-lg">
+            <div class="row my-auto">
+              <div class="col-sm-4 my-auto">
+                <img src="assets/img/micro.jpeg" class="img-fluid" id="card-img">
+              </div>
+              <div class="col-sm-8">
+                <div class="card-block px-2">
+                  <h1 class="card-title">Video-based Micro Expression Recognition using Deep Learning and Transfer </h1>
+                  <hr>
+                  <p class="card-content1">Implemented five pre-trained deep learning models (Xception, ResNet50, VGG19, MobileNetV2, EfficientNetB7) on the MEVIEW (MicroExpression VIdEos in-the-Wild) dataset using transfer learning, achieving the best accuracy of 98.26%, raw-data preprocessed (video to frames), feature extraction and classification of 6 micro expressions.</p>
+                  <p>Research paper presented at ICDSAI-2022 and set to release in SCOPUS indexed SPRINGER PROMS.</p>
+                  <span>
+                    <span><a class="btn btn-sm btn-outline-primary" id="card-content2" href="https://ieeexplore.ieee.org/abstract/document/9711766.">Link</a></span>
+                    <span><a class="btn btn-sm btn-outline-primary" id="card-content2" href="https://github.com/Samitkk18/AutoML"><i class='bx bx-code-curly' id="card-link"></i> Code</a></span>
+                    <span class="btn btn-sm btn-outline-dark" id="card-content2">Python</span>
+                  </span>
+                </div>
+              </div>
+            </div>  
+          </div> 
         <!-- Code for AutoML -->
         <div class="card border-secondary mb-4 shadow-lg">
           <div class="row my-auto">
@@ -218,6 +251,7 @@
                 <p class="card-content1">Designed an end-to-end system for easy training of classification models for micro and macro datasets by training the dataset on multiple fine-tuned classification algorithms and neural networks that output a downloadable model with the best accuracy.</p>
                 <p>Research paper presented at ICCCT’21 and set to publish in IEEE Digital Xplore (Scopus Indexed).</p>
                 <span>
+                  <span><a class="btn btn-sm btn-outline-primary" id="card-content2" href="https://ieeexplore.ieee.org/abstract/document/9711766.">Link</a></span>
                   <span><a class="btn btn-sm btn-outline-primary" id="card-content2" href="https://github.com/Samitkk18/AutoML"><i class='bx bx-code-curly' id="card-link"></i> Code</a></span>
                   <span class="btn btn-sm btn-outline-dark" id="card-content2">Python</span>
                   <span class="btn btn-sm btn-outline-dark" id="card-content2">Flask</span>
@@ -281,6 +315,57 @@
           <h1 id="section-header1">Projects</h1>
           <p id="section-content1">A collection of my personal and collaboration projects that I've undertaken over the course of my undergraduate education to explore different fields in Computer Science and narrow down my areas of interest.</p>
 
+          <!-- EQ -->
+          <div class="card border-secondary mb-4 shadow-lg">
+            <div class="row my-auto">
+              <div class="col-sm-4 my-auto">
+                <img src="assets/img/eq.png" class="img-fluid" id="card-img">
+              </div>
+              <div class="col-sm-8">
+                <div class="card-block px-2">
+                  <h1 class="card-title">Incisive Analysis of Emotional Quotient Based on Audio and Video Data (Final Year Project)</h1>
+                  <hr>
+                  <p class="card-content1">Formulated a three-staged custom test consisting of questions and case studies derived from MSCEIT Tests and approved by doctors to intensively analyze emotion-related abilities such as perception, management, and understanding. </p>
+                    <p>Executed models to detect and extract emotions from speech and audio and extract micro-expressions from videos.</p>
+                    <p>Devised a relative scoring algorithm to output results of three tests i.e., EQ.</p>
+                  
+            
+                  <span>
+                    <!-- <span><a class="btn btn-sm btn-outline-primary" id="card-content2" href="https://github.com/Samitkk18/cowin-alert"><i class='bx bx-code-curly' id="card-link"></i> Code</a></span> -->
+                    <span class="btn btn-sm btn-outline-dark" id="card-content2">Python</span>
+                  </span>
+                </div>
+              </div>
+            </div>  
+          </div>
+          
+          <!-- School Management System -->
+          <div class="card border-secondary mb-4 shadow-lg">
+            <div class="row my-auto">
+              <div class="col-sm-4 my-auto">
+                <img src="assets/img/school.jpeg" class="img-fluid" id="card-img">
+              </div>
+              <div class="col-sm-8">
+                <div class="card-block px-2">
+                  <h1 class="card-title">School Management System</h1>
+                  <hr>
+                  <p class="card-content1">Designed an end-to-end school management system catering to all functionalities for 4 entities, Student, Teacher, Parent, Administration.
+                    </p>
+                    <p>Implemented features such as attendance manager for teachers that included adding, viewing, and downloading attendance log to Excel.
+                    </p> <p> Other features – daily task manager, library, assignment, course, and schedule management system. 
+                    </p>
+                  <span>
+                    <span><a class="btn btn-sm btn-outline-primary" id="card-content2" href="https://github.com/Samitkk18/School-Management-System-DBMS"><i class='bx bx-code-curly' id="card-link"></i> Code</a></span>
+                    <span class="btn btn-sm btn-outline-dark" id="card-content2">PHP</span>
+                    <span class="btn btn-sm btn-outline-dark" id="card-content2">SQL</span>
+                    <span class="btn btn-sm btn-outline-dark" id="card-content2">JavaScript</span>
+                    <span class="btn btn-sm btn-outline-dark" id="card-content2">HMTL5</span>
+                    <span class="btn btn-sm btn-outline-dark" id="card-content2">CSS</span>             
+                </div>
+              </div>
+            </div>  
+          </div>
+          
           <!-- Code for Cowin-alert -->
           <div class="card border-secondary mb-4 shadow-lg">
             <div class="row my-auto">
